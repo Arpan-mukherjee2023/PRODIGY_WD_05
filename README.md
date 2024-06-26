@@ -12,7 +12,7 @@ This weather application is a simple and intuitive tool for checking current wea
 - HTML5
 - CSS3
 - JavaScript(ES6+)
-- Weather API (OpenWeater API)
+- Weather API (OpenWeather API)
 
 ## Acknowledgements
 - [OpenWeatherAPI](https://openweathermap.org/)
