@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecast Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">Forecast Pro</h1>
+        <input type="text" name="city" id="city" placeholder="Enter city">
+        <button id="search-city">Search</button>
+        <button id="search-icon"><img src="Images/search.png"></button>
+        <div class="temp-image">
+            <div id="image"><img src="Images/clear.png" id="weather"></div>
+            <div id="temp">
+            </div>
+            <button id="c-f"><span>°C</span></button>
+        </div>
+        <div id="hourly-data">
+            <div class="image"><img src="Images/humidity.png"></div>
+            <div id="humidity"></div>
+            <div class="image"><img src="Images/wind-turbine.png"></div>
+            <div id="wind"></div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
